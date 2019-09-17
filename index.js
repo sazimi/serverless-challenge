@@ -2,9 +2,9 @@ const https = require('https');
 
 module.exports = function(context, request) {
   const options = {
-    hostname: 'serverless-challenge.azurewebsites.net',
+    hostname: 'tech-bbq-2019-code-challenge.azurewebsites.net',
     port: 443,
-    path: '/api/serverless-challenge-checker',
+    path: '/api/tech-bbq-challenge',
     method: 'GET'
   };
 
