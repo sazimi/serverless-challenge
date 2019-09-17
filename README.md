@@ -8,7 +8,7 @@ Azure Functions is a solution for easily running small pieces of code, or "funct
 ## The challenge!
 **You have to deploy a new Azure Function in Node.js.** This function will open a web page that will redirect you to the registration page. Once you register, you will receive a confirmation email. You only need to come to the Microsoft booth and ask for your prize showing your confirmation email. That's all!
 
-*If you prefer .NET version of the same challenge, please use [this repo](https://github.com/diegoparrilla/dotnet2019challenge) (the mentioned prize might be different there, just ignore this information) with the modification of URL to `https://serverless-challenge.azurewebsites.net/api/serverless-challenge-checker` on [this line](https://github.com/diegoparrilla/dotnet2019challenge/blob/master/Dotnet2019ChallengeTrigger.cs#L16)*
+*If you prefer .NET version of the same challenge, please use [this repo](https://github.com/diegoparrilla/dotnet2019challenge) (the mentioned prize might be different there, just ignore this information) with the modification of URL to `https://tech-bbq-2019-code-challenge.azurewebsites.net/api/tech-bbq-challenge` on [this line](https://github.com/diegoparrilla/dotnet2019challenge/blob/master/Dotnet2019ChallengeTrigger.cs#L16)*
 
 ## So do I need to code?
 Not really... you just need to copy and paste the [code found here](https://github.com/webmaxru/serverless-challenge/blob/master/index.js)  when creating your Azure Function. It will take you only a few minutes!
