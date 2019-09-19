@@ -11,7 +11,7 @@ Azure Functions is a solution for easily running small pieces of code, or "funct
 *If you prefer .NET version of the same challenge, please use [this repo](https://github.com/diegoparrilla/dotnet2019challenge) (the mentioned prize might be different there, just ignore this information) with the modification of URL to `https://tech-bbq-2019-code-challenge.azurewebsites.net/api/tech-bbq-challenge` on [this line](https://github.com/diegoparrilla/dotnet2019challenge/blob/master/Dotnet2019ChallengeTrigger.cs#L16)*
 
 ## So do I need to code?
-Not really... you just need to copy and paste the [code found here](https://github.com/webmaxru/serverless-challenge/blob/master/index.js)  when creating your Azure Function. It will take you only a few minutes!
+Not really... you just need to copy and paste the [code found here](https://github.com/sazimi/serverless-challenge/blob/master/index.js)  when creating your Azure Function. It will take you only a few minutes!
 
 # STEP 0 **Important!** - Open [Azure portal](https://portal.azure.com) and make sure there is no active user (you have to see a log in screen). If somebody was previously logged in and you see the Dashboard - click user email in the top right corner and "Sign out".
 
@@ -29,11 +29,11 @@ You must have a function app to host the execution of your functions. A function
 
 1. Select the **Create a resource** button found on the upper left-hand corner of the Azure portal, then select **Compute > Function App**.
 
-![Create Resource](https://github.com/webmaxru/serverless-challenge/blob/master/images/pic-1.PNG)
+![Create Resource](https://github.com/sazimi/serverless-challenge/blob/master/images/pic-1.PNG)
 
 2. Use the function app settings as specified in the table below the image.
 
-![Create Function](https://github.com/webmaxru/serverless-challenge/blob/master/images/pic-2.PNG)
+![Create Function](https://github.com/sazimi/serverless-challenge/blob/master/images/pic-2.PNG)
 
 Setting | Suggested value |	Description
 ------- | --------------- | -----------
@@ -61,19 +61,19 @@ Next, you create a function in the new function app.
 
 1. Expand your new function app, then select the + button next to **Functions**, choose **In-portal**, and select **Continue**.
 
-![Create in portal http triggered](https://github.com/webmaxru/serverless-challenge/blob/master/images/pic-4.PNG)
+![Create in portal http triggered](https://github.com/sazimi/serverless-challenge/blob/master/images/pic-4.PNG)
 
 2. Choose **WebHook + API** and then select **Create**.
 
-![Create in portal http webhook api](https://github.com/webmaxru/serverless-challenge/blob/master/images/pic-5.PNG)
+![Create in portal http webhook api](https://github.com/sazimi/serverless-challenge/blob/master/images/pic-5.PNG)
 
-3. A function  is created using a language-specific template for an HTTP triggered function. Now, copy the content of [this file](https://github.com/webmaxru/serverless-challenge/blob/master/index.js) and paste it into the textbox.
+3. A function  is created using a language-specific template for an HTTP triggered function. Now, copy the content of [this file](https://github.com/sazimi/serverless-challenge/blob/master/index.js) and paste it into the textbox.
 
 4. Click on **Save**.
 
 5. Your function is ready! Now, you should click on **</>Get Function URL** and click on **Copy to clipboard**.
 
-![Cut and paste URL](https://github.com/webmaxru/serverless-challenge/blob/master/images/pic-6.PNG)
+![Cut and paste URL](https://github.com/sazimi/serverless-challenge/blob/master/images/pic-6.PNG)
 
 6. **This is the URL you have to paste in any browser.** After one second, the page will redirect automatically to a registration page. Fill the form and you will receive a confirmation email.
 
